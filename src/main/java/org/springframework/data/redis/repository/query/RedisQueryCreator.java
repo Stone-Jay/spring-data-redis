@@ -40,7 +40,6 @@ public class RedisQueryCreator extends AbstractQueryCreator<KeyValueQuery<RedisO
 
 	public RedisQueryCreator(PartTree tree, ParameterAccessor parameters) {
 		super(tree, parameters);
-
 	}
 
 	/*
