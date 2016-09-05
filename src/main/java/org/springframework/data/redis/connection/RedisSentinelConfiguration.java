@@ -158,7 +158,7 @@ public class RedisSentinelConfiguration {
 	 */
 	public void setMaster(NamedNode master) {
 
-		notNull("Sentinel master node must not be 'null'.");
+		notNull(master, "Sentinel master node must not be 'null'.");
 		this.master = master;
 	}
 
